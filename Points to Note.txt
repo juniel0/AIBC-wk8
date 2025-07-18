@@ -1,0 +1,15 @@
+# set up virtual environment in Anaconda Prompt?
+python -m venv myenv
+
+# activate virtual environment in Anaconda Prompt?
+myenv\Scripts\activate.bat
+
+# install required packages
+openai
+streamlit
+pandas
+python-dotenv
+tiktoken
+
+# OR launch VS Code from Anaconda Navigator using AIBC environment
+# the above packages have already been installed there
