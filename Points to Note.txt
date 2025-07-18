@@ -13,3 +13,28 @@ tiktoken
 
 # OR launch VS Code from Anaconda Navigator using AIBC environment
 # the above packages have already been installed there
+
+Using Git
+from the base folder in Windows, right click to open bash to get to the
+    correct directory
+
+# initialise local repository as git repository
+git init -b main
+
+# add the files
+git add
+
+# commit the changes
+git commit
+
+
+#from Jina
+if you already have an existing project and you have already created an empty repo, you can follow the following steps:
+git init
+#J: change branch from master to main
+git branch -m master main
+git remote add origin https://github.com/your-username/your-repo.git
+git remote -v
+git add .gitignore
+git commit -m "Initial commit with gitignore" (the initial commit message can be whatever you want)
+git push -u origin main
